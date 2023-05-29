@@ -1,0 +1,50 @@
+[0m19:24:35.954364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106021d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a7610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a77f0>]}
+
+
+============================== 19:24:35.959667 | f3f20a86-3e39-494f-ba8c-ee01ac0ec5b6 ==============================
+[0m19:24:35.959667 [info ] [MainThread]: Running with dbt=1.5.0
+[0m19:24:35.960334 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m19:24:35.961293 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/vcaldeir/Documents/Source/data-product-template/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:24:35.962171 [debug] [MainThread]: Command `dbt deps` failed at 19:24:35.962006 after 0.05 seconds
+[0m19:24:35.962572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106021d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a7670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a7700>]}
+[0m19:24:35.963016 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-28 11:27:36.431429 | 4dcd2bb4-481b-45aa-9191-e32981132b11 ==============================
+[0m11:27:36.431429 [info ] [MainThread]: Running with dbt=1.4.0
+[0m11:27:36.433122 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/vcaldeir/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m11:27:36.433323 [debug] [MainThread]: Tracking: tracking
+[0m11:27:36.449869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d9abbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d9a99f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d9ab7c0>]}
+[0m11:27:36.451166 [info ] [MainThread]: Creating dbt configuration folder at /Users/vcaldeir/.dbt
+[0m11:27:36.452334 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-28 11:33:35.032224 | bdf4c7fd-0fee-44d4-b2c8-f1cadc111288 ==============================
+[0m11:33:35.032224 [info ] [MainThread]: Running with dbt=1.4.6
+[0m11:33:35.034007 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/vcaldeir/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m11:33:35.034296 [debug] [MainThread]: Tracking: tracking
+[0m11:33:35.051839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110259f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111025a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111024910>]}
+[0m11:33:47.464787 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m11:33:50.522517 [info ] [MainThread]: Profile transform written to /Users/vcaldeir/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:33:50.522939 [info ] [MainThread]: 
+Your new dbt project "transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:33:50.523290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f5bab30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111101900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111101c00>]}
+[0m11:33:50.523619 [debug] [MainThread]: Flushing usage events
