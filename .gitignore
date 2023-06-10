@@ -10,6 +10,3 @@ profiles.yml
 
 # Mac OS-specific storage files
 .DS_Store
-
-# Temporarily exclude data from source control until DVC is configured
-/data/
