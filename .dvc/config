@@ -1,0 +1,5 @@
+[core]
+    remote = s3-data-storage
+['remote "s3-data-storage"']
+    url = s3://data-product-template/
+    endpointurl = https://minio-datamesh-demo.apps.rosa-8grhg.ssnp.p1.openshiftapps.com:9000
